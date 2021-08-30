@@ -132,7 +132,7 @@ button.icon {
   display: flex;
   align-items: center;
 }
-.about {
+.about, .testiCont {
   background-color: rgba(235, 84, 36, 0.1);
   padding: 60px 50px;
 }
@@ -150,4 +150,53 @@ p.abDeets {
 }
 .leftAb {
   width: 60%;
+}
+.serviceCont, .testiCont {
+  height: 100vh;
+  padding: 60px 50px;
+}
+.midTxt {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+p.catchy {
+  width: 30%;
+  text-align: center;
+  margin-top: 40px;
+}
+input, textarea {
+  background: rgba(235, 84, 36, 0.03);
+  border: 1px solid #D3431F;
+  padding: 8px;
+  border-radius: 5px;
+}
+input {
+  width: 49%;
+}
+.contactCont {
+  padding: 60px 50px;
+}
+textarea {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.flexInp {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.centSc {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+p.footer {
+  color: #fff;
+  font-weight: 500;
+}
+.footerCont {
+  background-color: #D3431F;
+  text-align: center;
+  padding: 25px 0px;
 }
