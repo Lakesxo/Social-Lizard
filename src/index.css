@@ -1,13 +1,153 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  outline: none;
+}
+.hamburger {
+  display: inline-block;
+  cursor: pointer;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.bar1, .bar2, .bar3 {
+  width: 30px;
+  height: 4px;
+  background-color: #D3431F;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+/* Rotate first bar */
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
+  transform: rotate(-45deg) translate(-9px, 6px) ;
+}
+
+/* Fade out the second bar */
+.change .bar2 {
+  opacity: 0;
+}
+
+/* Rotate last bar */
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
+  transform: rotate(45deg) translate(-8px, -8px) ;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px 10px 0px;
+}
+.navDesktop {
+  display: flex;
+  justify-content: space-between;
+}
+.nomNavs {
+  display: flex;
+  justify-content: space-evenly;
+  width: 70%;
+  margin-left: 20px;
+  align-items: center;
+}
+.navHam {
+  width: 100%;
+}
+.ctas {
+  width: 30%;
+  display: flex;
+  justify-content: space-evenly;
+  z-index: 2;
+}
+p.nav {
+  color: #D3431F;
+  font-weight: 500;
+}
+button.contact {
+  background-color: #fff;
+  color: #D3431F;
+  border: 1px solid #D3431F;
+}
+button {
+  padding: 7px 30px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 500;
+}
+button.start {
+  background-color: #D3431F;
+  border: 1px solid #D3431F;
+  color: #fff;
+  padding: 7px 25px;
+}
+span.extra {
+  color: #D3431F;
+}
+.flexHero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.textnBtn {
+  position: relative;
+}
+img.path {
+  position: absolute;
+  top: 19%;
+  z-index: -1;
+}
+.heroView {
+  height: 100vh;
+  padding-left: 50px;
+}
+p.heroDeets {
+  font-size: 36px;
+  font-weight: 500;
+  width: 45%;
+  margin-bottom: 20px;
+}
+img.bgImg {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+button.icon {
+  padding: 5px;
+  height: 50px;
+  width: 50px;
+  background-color: #D3431F;
+  border: 1px solid #D3431F;
+  border-radius: 50%;
+  margin-right: 25px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.iconCont {
+  display: flex;
+  align-items: center;
+}
+.about {
+  background-color: rgba(235, 84, 36, 0.1);
+  padding: 60px 50px;
+}
+.centH2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.flexAb {
+  display: flex;
+  margin-top: 20px;
+}
+p.abDeets {
+  margin-top: 30px;
+}
+.leftAb {
+  width: 60%;
 }

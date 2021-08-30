@@ -1,9 +1,15 @@
 import React from 'react'
 
-const Heading = () => {
+const Heading = ({ title }) => {
+    const style = {
+        paddingBotton: "10px",
+        borderBottom: "2px solid #EC8B24",
+        color: "#D3431F"
+    }
+
     return (
-        <div>
-            
+        <div className="centH2">
+            <h2 style={style}>{title}</h2>
         </div>
     )
 }
