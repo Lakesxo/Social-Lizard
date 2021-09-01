@@ -1,12 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-const Header = () => {
+const Header = ({ toggle, toggleHamburger }) => {
     const isMobile = window.innerWidth <= 600;
-    const [ toggle, setToggle ] = useState(false)
-
-    const toggleHamburger = () => {
-        setToggle(!toggle)
-    }
 
     return (
         <div>

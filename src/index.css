@@ -12,10 +12,10 @@
 }
 
 .bar1, .bar2, .bar3 {
-  width: 30px;
+  width: 35px;
   height: 4px;
   background-color: #D3431F;
-  margin: 6px 0;
+  margin: 7px 0;
   transition: 0.4s;
 }
 
@@ -71,7 +71,7 @@ button.contact {
   border: 1px solid #D3431F;
 }
 button {
-  padding: 7px 30px;
+  padding: 8px 30px;
   border-radius: 5px;
   cursor: pointer;
   font-weight: 500;
@@ -80,7 +80,7 @@ button.start {
   background-color: #D3431F;
   border: 1px solid #D3431F;
   color: #fff;
-  padding: 7px 25px;
+  padding: 9px 25px;
 }
 span.extra {
   color: #D3431F;
@@ -152,7 +152,6 @@ p.abDeets {
   width: 60%;
 }
 .serviceCont, .testiCont {
-  height: 100vh;
   padding: 60px 50px;
 }
 .midTxt {
@@ -194,9 +193,250 @@ textarea {
 p.footer {
   color: #fff;
   font-weight: 500;
+  margin-bottom: 0;
 }
 .footerCont {
   background-color: #D3431F;
   text-align: center;
   padding: 25px 0px;
+}
+ul.nav {
+  background-color: #fff;
+  width: 50%;
+  border: 2px solid #D3431F;
+  border-radius: 8px;
+}
+.tabbedCont {
+  margin-top: 40px;
+}
+li.nav-item {
+  width: 50%;
+  text-align: center;
+}
+button.nav-link {
+  width: 100%;
+  color: #D3431F;
+}
+button.nav-link.active {
+  background-color: #D3431F !important;
+  color: #fff;
+}
+button.nav-link:hover {
+  color: #D3431F;
+}
+.centTabNav {
+  display: flex;
+  justify-content: center;
+}
+.servCard {
+  width: 350px;
+  height: 400px;
+  text-align: center;
+}
+.flexServs {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+.iconServ {
+  color: #D3431F;
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+p.servTitle {
+  color: #261C15;
+  font-weight: 600;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.cardTCont {
+  width: 350px;
+  height: 270px;
+  background: #FFFFFF;
+  box-shadow: 0px 4px 20px rgba(235, 84, 36, 0.2);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.caroFlex {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+p.testiDeets, p.testiAuthor {
+  margin-bottom: 0;
+}
+.carousel-indicators {
+  z-index: 1;
+  margin-top: 20px;
+}
+.carousel-indicators li {
+  background-color: #fff;
+  border: 2px solid #D3431F;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  margin-right: 8px;
+  margin-left: 8px;
+  opacity: 1;
+}
+
+.carousel-indicators .active {
+  background-color: #D3431F;
+  opacity: 1;
+}
+.carousel {
+  position: relative;
+  height: 350px;
+}
+img.userTesti {
+  border-radius: 50%;
+  border: 1px solid #D3431F;
+}
+span.quotes {
+  color: #D3431F;
+  font-size: 25px;
+}
+span.actDeets {
+  color: #261C15;
+  font-size: 16px;
+}
+p.testiAuthor {
+  font-weight: 600;
+  color: #261C15;
+}
+form {
+  font-size: 14px;
+}
+
+
+@media (max-width: 768px) {
+  .heroView {
+    padding-left: 20px;
+    padding-bottom: 50px;
+    position: relative;
+  }
+  .mbMenu {
+    position: fixed;
+    width: 100%;
+    text-align: center;
+    height: 100vh;
+    bottom: 0;
+    background-color: #fff;
+    z-index: 2;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  p.mbNavz {
+    margin-bottom: 50px;
+    font-size: 20px;
+    color: #D3431F;
+    font-weight: 500;
+  }
+  .rightHero {
+    display: none;
+  }
+  .leftHero {
+    margin-bottom: 20vh;
+    margin-top: 25vh;
+  }
+  p.heroDeets {
+    font-size: 24px;
+    width: 280px;
+  }
+  img.path {
+    height: 320px;
+    top: 27%;
+  }
+  .flexAb {
+    display: block;
+  }
+  .leftAb {
+    width: 100%;
+  }
+  .rightAb img {
+    height: 300px;
+  }
+  ul.nav {
+    width: 100%;
+  }
+  li.nav-item {
+    width: 50%;
+  }
+  .flexServs {
+    flex-direction: column;
+  }
+  .servCard {
+    width: 100%;
+    height: 250px;
+  }
+  p.catchy {
+    width: 90%;
+  }
+  .caroFlex {
+    display: block;
+  }
+  .cardTCont {
+    width: 100%;
+    height: 250px;
+    margin-bottom: 40px;
+  }
+  .carousel {
+    height: inherit;
+  }
+  .about, .testiCont, .serviceCont {
+    padding: 50px 20px;
+  }
+  .flexInp {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  input {
+    width: 100%;
+  }
+  #name {
+    margin-bottom: 20px;
+  }
+  .contactCont {
+    padding: 50px 20px;
+  }
+  .navHam {
+    text-align: right;
+    z-index: 5;
+    position: fixed;
+    padding-right: 50px;
+  }
+  .carousel {
+    padding-bottom: 40px;
+  }
+  img.bgImg {
+    z-index: 3;
+  }
+}
+@media (max-width: 375px) {
+  img.path {
+    height: 320px;
+  }
+  img.bgImg {
+    height: 180px;
+  }
+}
+
+@media (max-width: 360px) {
+  img.path {
+    height: 320px;
+    top: 27%;
+  }
+  img.bgImg {
+    height: 180px;
+  }
+  .mbMenu {
+    height: 100vh;
+  }
 }
