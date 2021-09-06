@@ -7,7 +7,7 @@ const Services = () => {
     const isMobile = window.innerWidth <= 600;
 
     return (
-        <div className="serviceCont">
+        <div className="serviceCont" id="services">
             <Heading title="Services" />
             <div className="tabbedCont">
                 <div className="centTabNav">

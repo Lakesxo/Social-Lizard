@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-scroll'
 
 const Header = ({ toggle, toggleHamburger }) => {
     const isMobile = window.innerWidth <= 600;
@@ -20,13 +21,16 @@ const Header = ({ toggle, toggleHamburger }) => {
                             :
                             <div className="navDesktop">
                                 <div className="nomNavs">
-                                    <p className="nav">About</p>
-                                    <p className="nav">Services</p>
-                                    <p className="nav">Testimonials</p>
+                                    <Link to="about" spy={true}><p className="nav">About</p></Link>
+                                    <Link to="services" spy={true}><p className="nav">Services</p></Link>
+                                    <Link to="testimonials" spy={true}><p className="nav">Testimonials</p></Link>
+                                    
+                                    
                                 </div>
                                 <div className="ctas">
-                                    <button className="contact">Contact</button>
-                                    <button className="start">Get Started</button>
+                                    <Link to="contact" spy={true}><button className="contact">Contact</button></Link>
+                                    <Link to="services" spy={true}><button className="start">Get Started</button></Link>
+                                    
                                 </div>
                             </div>
                     }

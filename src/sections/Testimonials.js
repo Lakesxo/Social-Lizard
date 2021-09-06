@@ -5,7 +5,7 @@ import TestimonialCard from '../components/TestimonialCard'
 
 const Testimonials = () => {
     return (
-        <div className="testiCont">
+        <div className="testiCont" id="testimonials">
             <Heading title="Testimonials" />
             <div className="midTxt">
                 <p className="catchy">Here’s what our clients had to say about us</p>

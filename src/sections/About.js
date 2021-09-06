@@ -3,7 +3,7 @@ import Heading from '../components/Heading'
 
 const About = () => {
     return (
-        <div className="about">
+        <div className="about" id="about">
             <Heading title="About" />
             <div className="flexAb">
                 <div className="leftAb">

@@ -1,13 +1,14 @@
 import React from 'react'
+import { Link } from "react-scroll"
 
-const MobileMenu = () => {
+const MobileMenu = ({ toggleHamburger }) => {
     return (
         <div className="mbMenu">
-            <p className="mbNavz">About</p>
-            <p className="mbNavz">Services</p>
-            <p className="mbNavz">Testimonials</p>
-            <p className="mbNavz">Contact</p>
-            <button className="start">Get started</button>
+            <Link to="about" spy={true}><p className="mbNavz" onClick={toggleHamburger}>About</p></Link>
+            <Link to="services" spy={true}><p className="mbNavz" onClick={toggleHamburger}>Services</p></Link>
+            <Link to="testimonials" spy={true}><p className="mbNavz" onClick={toggleHamburger}>Testimonials</p></Link>
+            <Link to="contact" spy={true}><p className="mbNavz" onClick={toggleHamburger}>Contact</p></Link>
+            <Link to="services" spy={true}><button className="start" onClick={toggleHamburger}>Get started</button></Link>
         </div>
     )
 }

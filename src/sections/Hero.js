@@ -18,7 +18,7 @@ const Hero = () => {
 
     return (
         <div>
-            <div className="heroView">
+            <div className="heroView" id="hero">
                 <Header toggle={toggle} toggleHamburger={toggleHamburger} />
                 <div className="flexHero">
                     <div className="leftHero">
@@ -35,7 +35,7 @@ const Hero = () => {
                 <img draggable='false' src={isMobile ? "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630503716/Ellipse_3_rnwuq7.png" : "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630235221/Ellipse_1_u8lyv6.png"} alt="social lizard" className="bgImg" />
                 <SocialIcons />
             </div>
-            {toggle && <MobileMenu />}
+            {toggle && <MobileMenu toggle={toggle} toggleHamburger={toggleHamburger} />}
         </div>
     )
 }
