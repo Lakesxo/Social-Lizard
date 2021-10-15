@@ -71,6 +71,7 @@ p.nav {
   color: #D3431F;
   font-weight: 500;
   cursor: pointer;
+  font-size: 18px;
 }
 button.contact {
   background-color: #fff;
@@ -319,6 +320,26 @@ form {
   font-size: 14px;
 }
 
+@media (min-width: 1920px) {
+  .heroView {
+    height: inherit;
+    padding-bottom: 70px;
+  }
+  img.path {
+    top: 11%;
+  }
+  .flexAb {
+    justify-content: center;
+  }
+  .contactCont {
+    padding-left: 20%;
+    padding-right: 20%;
+  }
+  .leftAb {
+    width: 45%;
+  }
+}
+
 @media (max-width: 768px) {
   .heroView {
     padding-left: 20px;
@@ -380,7 +401,7 @@ form {
   }
   .servCard {
     width: 100%;
-    height: 250px;
+    height: 320px;
   }
   p.catchy {
     width: 90%;
@@ -423,6 +444,9 @@ form {
   }
   img.bgImg {
     z-index: 3;
+  }
+  .fullWdth {
+    width: 100%;
   }
 }
 @media (max-width: 375px) {

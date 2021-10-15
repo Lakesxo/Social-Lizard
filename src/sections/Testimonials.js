@@ -14,7 +14,7 @@ const Testimonials = () => {
                 <Carousel controls={true} >
                     <Carousel.Item>
                         <div className="caroFlex">
-                            <TestimonialCard img="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1593611487/user2_saauqi.png" details="We handle social media accounts page set up and account management" author="Pacman" />
+                            <TestimonialCard img="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1593611487/user2_saauqi.png" details=" Trusting social lizard with my brand as been one of the best decisions I made this year, they spotlighted a lot of mistakes I overlooked as a business owner" author="Pacman" />
                             <TestimonialCard img="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1593611487/user2_saauqi.png" details="We handle social media accounts page set up and account management" author="Pacman" />
                             <TestimonialCard img="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1593611487/user2_saauqi.png" details="We handle social media accounts page set up and account management" author="Pacman" />
                         </div>

@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import Header from '../components/Header'
 import MobileMenu from '../components/MobileMenu';
 import SocialIcons from '../components/SocialIcons'
+import { Link } from "react-scroll"
 
 const Hero = () => {
     const isMobile = window.innerWidth <= 600;
@@ -24,7 +25,7 @@ const Hero = () => {
                     <div className="leftHero">
                         <div className="textnBtn">
                             <p className="heroDeets">Grow <span className="extra">your</span> business the <span className="extra">right</span> way with social <span className="extra">lizard</span>.</p>
-                            <button className="start">Get started</button>
+                            <Link to="services" spy={true}><button className="start">Get started</button></Link>
                         </div>
                         <img className="path" draggable="false" src={isMobile ? "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630503716/Group_13_qfoeet.png" : "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630235221/Group_10_xblwxs.png"} alt="social lizard" />
                     </div>
