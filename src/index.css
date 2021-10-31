@@ -319,6 +319,10 @@ p.testiAuthor {
 form {
   font-size: 14px;
 }
+p.thanks {
+  color: #D3431F;
+  font-weight: 600;
+}
 
 @media (min-width: 1920px) {
   .heroView {
