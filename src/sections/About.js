@@ -8,16 +8,10 @@ const About = () => {
             <div className="flexAb">
                 <div className="leftAb">
                     <p className="abDeets">
-                    Social Lizard Agency is a creative incubator dedicated to nurturing
-                    and developing businesses and music stars through shaping their
-                    brands creating content that aligns and achieving set goals. This task
-                    comes with understanding the vision and requirements in shaping
-                    these businesses and artistes brand, Social Lizard Agency is equipped
-                    with a workforce that truly believes in teamwork and setting goals
-                    and business strategies.
+                    Social lizard is a creative agency dedicated towards nurturing, developing and handling of brands,ideas and business of music stars. As an incubator,we are the perfect blend of experience and Gen-Z innovations designed to accelerate the growth and success of music stars through an array of business support resources and services.
                     </p>
                     <p className="abDeets">
-                        Social Lizard is a modern agency located in Lagos, Nigeria. Our mission as a new day creative agency is to fulfil client’s social media marketing goals by providing new era social media solutions, content creation and iconic branding.
+                    As a modern day organization located in the state that never sleeps Abeokuta,Nigeria with a work-force that offers on show the best of purpose and creative thinking.The mission of the agency is to fulfil and surpass the client's aim by providing new era social media solutions,gritty old experience,content creation and iconic branding.    
                     </p>
                 </div>
                 <div className="rightAb">
