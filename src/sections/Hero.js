@@ -27,7 +27,7 @@ const Hero = () => {
                             <p className="heroDeets">Grow <span className="extra">your</span> business the <span className="extra">right</span> way with social <span className="extra">lizard</span>.</p>
                             <Link to="services" spy={true}><button className="start">Get started</button></Link>
                         </div>
-                        <img className="path" draggable="false" src={isMobile ? "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630503716/Group_13_qfoeet.png" : "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630235221/Group_10_xblwxs.png"} alt="social lizard" />
+                        <img className="path" data-aos="fade-left" draggable="false" src={isMobile ? "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1641982519/Group_mb_bi0s7l.png" : "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1641982519/Group_desk_gqoxvz.png"} alt="social lizard" />
                     </div>
                     <div className="rightHero">
                         <img draggable="false" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630147706/Social_tree_uoojjt.gif" alt="social lizard" />

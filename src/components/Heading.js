@@ -9,7 +9,7 @@ const Heading = ({ title }) => {
 
     return (
         <div className="centH2">
-            <h2 style={style}>{title}</h2>
+            <h2 data-aos="zoom-in" style={style}>{title}</h2>
         </div>
     )
 }
