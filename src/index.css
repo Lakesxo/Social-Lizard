@@ -144,6 +144,9 @@ button.icon {
   background-color: rgba(235, 84, 36, 0.1);
   padding: 60px 50px;
 }
+.about, .heroView {
+  overflow-x: hidden;
+}
 .centH2 {
   display: flex;
   flex-direction: column;

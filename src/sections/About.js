@@ -2,6 +2,8 @@ import React from 'react'
 import Heading from '../components/Heading'
 
 const About = () => {
+    const isMobile = window.innerWidth <= 600;
+
     return (
         <div className="about" id="about">
             <Heading title="About" />
@@ -15,7 +17,7 @@ const About = () => {
                     </p>
                 </div>
                 <div className="rightAb">
-                    <img data-aos="fade-left" src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630235222/Black_Event_Coordinators_Logo__1_-removebg-preview_2_zjkm7h.png" alt="social lizard logo" />
+                    <img data-aos={!isMobile ? "fade-left" : ""} src="https://res.cloudinary.com/dt9pwfpi5/image/upload/v1630235222/Black_Event_Coordinators_Logo__1_-removebg-preview_2_zjkm7h.png" alt="social lizard logo" />
                 </div>
             </div>
         </div>
