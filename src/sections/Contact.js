@@ -20,7 +20,7 @@ const Contact = () => {
         <div className="contactCont" id="contact">
             <Heading title="Get In Touch" />
             <div className="midTxt">
-                <p className="catchy">Here’s where you’d insert a catchy phrase for the contact us section</p>
+                <p className="catchy">What are you waiting for? Connect to work with us</p>
             </div>
             <form onSubmit={handleSubmit} ref={formRef}>
                 <div className="flexInp">
