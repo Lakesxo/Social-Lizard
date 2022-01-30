@@ -466,6 +466,16 @@ p.thanks {
     width: 100%;
   }
 }
+@media (max-width: 500px) {
+  .leftHero {
+    margin-top: 23vh;
+    margin-bottom: 10vh;
+  }
+  p.heroDeets {
+    width: 100%;
+    font-size: 33px;
+  }
+}
 @media (max-width: 375px) {
   img.path {
     height: 320px;
@@ -475,7 +485,7 @@ p.thanks {
   }
   p.heroDeets {
     width: 100%;
-    font-size: 35px;
+    font-size: 30px;
   }
   img.bgImg {
     height: 180px;
@@ -488,7 +498,6 @@ p.thanks {
   }
   p.heroDeets {
     width: 100%;
-    font-size: 35px;
   }
   img.path {
     height: 320px;
