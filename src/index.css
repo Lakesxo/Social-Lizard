@@ -109,6 +109,7 @@ img.path {
 .heroView {
   height: 100vh;
   padding-left: 50px;
+  background-image: url("https://res.cloudinary.com/dt9pwfpi5/image/upload/v1643539837/bgimg_iu3nfv.png");
 }
 p.heroDeets {
   font-size: 36px;

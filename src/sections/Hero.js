@@ -24,7 +24,7 @@ const Hero = () => {
                 <div className="flexHero">
                     <div className="leftHero">
                         <div className="textnBtn">
-                            <p className="heroDeets">Grow <span className="extra">your</span> business the <span className="extra">right</span> way with social <span className="extra">lizard</span>.</p>
+                            <p className="heroDeets">Grow <span className="extra">your</span> creative business <span className="extra">with</span> social <span className="extra">lizard</span>.</p>
                             <Link to="services" spy={true}><button className="start">Get started</button></Link>
                         </div>
                         <img className="path" data-aos="fade-left" draggable="false" src={isMobile ? "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1641982519/Group_mb_bi0s7l.png" : "https://res.cloudinary.com/dt9pwfpi5/image/upload/v1641982519/Group_desk_gqoxvz.png"} alt="social lizard" />
