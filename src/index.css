@@ -92,19 +92,16 @@ button.start {
 }
 span.extra {
   color: #D3431F;
+  font-size: 20px;
 }
 .flexHero {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.textnBtn {
-  position: relative;
-}
 img.path {
   position: absolute;
-  top: 19%;
-  z-index: -1;
+  right: 0;
 }
 .heroView {
   height: 100vh;
@@ -112,10 +109,12 @@ img.path {
   background-image: url("https://res.cloudinary.com/dt9pwfpi5/image/upload/v1643539837/bgimg_iu3nfv.png");
 }
 p.heroDeets {
-  font-size: 36px;
-  font-weight: 500;
-  width: 45%;
+  font-size: 40px;
+  font-weight: 700;
+  width: 100%;
   margin-bottom: 20px;
+  word-spacing: 5px;
+  letter-spacing: 4px;
 }
 img.bgImg {
   position: absolute;
@@ -359,6 +358,7 @@ p.thanks {
     padding-left: 20px;
     padding-bottom: 50px;
     position: relative;
+    height: inherit;
   }
   .mbMenu {
     position: fixed;
@@ -388,8 +388,8 @@ p.thanks {
     margin-top: 25vh;
   }
   p.heroDeets {
-    font-size: 24px;
-    width: 280px;
+    font-size: 40px;
+    width: 95%;
   }
   img.path {
     height: 320px;
@@ -470,12 +470,26 @@ p.thanks {
   img.path {
     height: 320px;
   }
+  .heroView {
+    height: inherit;
+  }
+  p.heroDeets {
+    width: 100%;
+    font-size: 35px;
+  }
   img.bgImg {
     height: 180px;
   }
 }
 
 @media (max-width: 360px) {
+  .heroView {
+    height: inherit;
+  }
+  p.heroDeets {
+    width: 100%;
+    font-size: 35px;
+  }
   img.path {
     height: 320px;
     top: 27%;
